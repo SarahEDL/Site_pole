@@ -1,0 +1,109 @@
+/*selecteur universel*/
+*, body {
+    background-color: navy;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 14px; */
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+/* selecteurs d'éléement */
+nav {
+    margin-top: 1rem;
+}
+
+div, p {
+    margin-top: 2.5rem;
+    /* 1rem = environ 16px */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px dotted #ccc;
+    border-radius: .2rem;
+    margin: .5rem;
+    padding: .5rem;
+    font-weight: normal;
+}
+
+/* selection via pseudo-classe */
+div:first-of-type {
+    color: lime;
+}
+div:last-child {
+    color: red;
+}
+
+div:nth-child(6) {
+    color: brown;
+}
+
+#comment {
+    /* selecteur d'id : #xxx */
+    color: pink;
+}
+
+.special, .special>li {
+    /* selecteur de classe : .xxx */
+    color: yellow;
+    background-color: olivedrab;
+}
+.special:first-line {
+    text-decoration: underline;
+}
+
+.special-two {
+    color: orange;
+}
+
+p.special {
+    background-color: navy;
+}
+
+div p {
+    color: white;
+}
+
+div>.special {
+ font-size: 1.5rem;
+}
+
+div > p {
+    font-size: 2.5rem;
+}
+
+/* selecteur d'adjacence */
+.special+.special {
+    font-style: italic;
+}
+
+/* selecteurs d'attribut */
+p[lang] {
+   font-weight: bold; 
+}
+
+nav a[active] {
+   font-weight: bold; 
+}
+
+/* pseudo-selecteur dynamique */
+a:hover {
+    font-size: 1.1rem;
+}
+
+h1 {
+    color: lightblue;
+    padding: 1rem;
+}
+
+/* bonus selector */
+h1::before {
+    content: "♥";
+    padding-right: 1rem;
+}
+
+h1::after {
+    content: ":)";}
