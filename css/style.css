@@ -97,6 +97,7 @@ a:hover {
 h1 {
     color: lightblue;
     padding: 1rem;
+    border: 10px dashed black;
 }
 
 /* bonus selector */
