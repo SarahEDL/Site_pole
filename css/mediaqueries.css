@@ -1,0 +1,26 @@
+body {
+    background: url(https://lepole-formation.fr/wp-content/uploads/2022/05/accompagnement.svg);
+    background-size: cover;
+}
+
+
+@media (max-width: 1150px) { 
+   body { 
+       background-size: contain;
+       background-repeat: no-repeat;
+    }
+
+ }
+
+ 
+@media (min-width: 350px) and (max-width: 849px) {
+    body {
+        background: black;
+    }
+}
+
+@media (max-width: 349px) {
+    body {
+        background-size: cover;
+    }
+}
