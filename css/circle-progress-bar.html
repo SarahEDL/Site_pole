@@ -8,6 +8,7 @@
             margin: auto;
             margin-top: 10rem;
         }
+
         @keyframes growProgressBar {
             0%,
             33% {
@@ -24,32 +25,33 @@
             initial-value: 0;
         }
         
-            div[role="progressbar"] {
-                --size: 5rem;
-                --fg: #D0A506;
-                --bg: #282828;
-                --pgPercentage: var(--value);
-                animation: growProgressBar 1s 1 forwards;
-                width: var(--size);
-                height: var(--size);
-                border-radius: 50%;
-                display: grid;
-                place-items: center;
-                background:
-                    radial-gradient(closest-side, #282828 80%, transparent 0 99.9%, #282828 0),
-                    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
-                font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-                font-size: calc(var(--size) / 5);
-                color: var(--fg);
-            }
-            
-            div[role="progressbar"]::before {
-                counter-reset: percentage var(--value);
-                content: counter(percentage) '%';
-            }
+        div[role="progressbar"] {
+            --size: 7rem;
+            --fg: #D0A506;
+            --bg: #282828;
+            --pgPercentage: var(--value);
+            animation: growProgressBar 3s 1 forwards;
+            width: var(--size);
+            height: var(--size);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background:
+                radial-gradient(closest-side, #282828 80%, transparent 0 99.9%, #282828 0),
+                conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+            font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+            font-size: calc(var(--size) / 5);
+            color: var(--fg);
+        }
+        
+        div[role="progressbar"]::before {
+            counter-reset: percentage var(--value);
+            content: counter(percentage) '%';
+        }
             
     </style>
   </head>
+
   <body>
     <div
       role="progressbar"
@@ -60,4 +62,4 @@
     >
     </div>
 </body>
-    
+</html>

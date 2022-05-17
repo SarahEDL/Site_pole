@@ -6,6 +6,25 @@
 /* les paragraphes suivant directement un titre de niveeau 2 doivent être en rouge italique.*/
 /* les paragraphes suivant un titre de niveau 1 doivent être en violet.
 */
-p {
-    text-transform: capitalize;
+body {
+    font-family: Helvetica;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+
+article h2 {
+    color: blue;
+}
+
+section h2 {
+    color: green;
+}
+h2+p {
+    color: red;
+    font-style: italic;
+}
+h1+p {
+    color: purple;
 }
