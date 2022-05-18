@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  div {
+    width: 12rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 6rem;
+    color: goldenrod;
+    font-weight: bold;
+  }
+  
+  .linear {
+    background: linear-gradient(#518FBC 10%, white 150%);
+  }
+  
+  .radial {
+    background: radial-gradient(#135584 10%, #518FBC 50%, white 150%);
+  }
+  
+  .repeat-linear {
+    background: repeating-linear-gradient(120deg, #518FBC 25px, white 50px);
+  }
+  
+  
+  .repeat-radial {
+    background: repeating-radial-gradient(#135584 5px, #518FBC 10px, white 20px);
+  }
