@@ -100,8 +100,39 @@ input {
 
 .breadcrumbs {
     justify-content: start;
-    margin-left: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 24fr 1fr;
+    flex-wrap: nowrap;
+    height: 5rem;
+
 }
+.breadcrumbs h2 {
+    color:#3852CE;
+}
+
+.breadcrumbs .progress-bar {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    display: flex;
+    background-color: #eee;
+}
+.progress-bar .progress {
+    width: 25%;
+    align-self: left;
+    background-color: #3852CE;
+    background: linear-gradient(224.47deg,#018BF1 0%,#00BAD8 99.09%);
+}
+.breadcrumbs > select {
+    margin: .5rem;
+}
+.breadcrumbs > div {
+    margin: 1rem;
+}
+.breadcrumbs > a{
+    margin: .5rem;
+}
+
 .container__video {
     width: 400px;
     margin: 2.5rem auto;
@@ -158,6 +189,24 @@ input {
     top: 0.6rem;
 }    
 
+.card__exercice {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin: 3rem;
+}
+
+.card__enonce {
+
+}
+.card__reponses {
+
+}
+
 .btn-start {
     width: 15rem;
+}
+
+.transcript {
+    display: none;
 }

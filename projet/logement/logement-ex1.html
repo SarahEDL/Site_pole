@@ -19,27 +19,107 @@
           </div>
       </header>
       <main class="categ">
-        <nav class="breadcrumbs">
+        <nav>
              <a class="back" href="../index.html">
                 <i class="fa-solid fa-arrow-left-long"></i>
             </a>
         </nav>
        
         <h1>Logement</h1>
-        <div>
-            <iframe id="serie-embeded" 
-            width="100%"
-            height="300px" 
-            src="https://apprendre.tv5monde.com/fr/exercices/a2-elementaire/embed/nous-nous-informons-sur-le-logement"
-            frameborder="0"></iframe>
-
-        </div>
-        <div class="submit"><input class="btn btn-success btn-start" type="submit" value="Commencer l'exercice 1"></div>
+        <nav class="breadcrumbs">
+            <select class="btn btn-secondary">
+                <option selected>Exercice 01 / 04</option>
+                <option>Exercice 02 / 04</option>
+                <option>Exercice 03 / 04</option>
+                <option>Exercice 04 / 04</option>
+            </select>
+            <div>
+                <h2>Nous nous informons sur le logement</h2>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <a class="btn btn-secondary" href="../logement.html">
+               <i class="fa-solid fa-xmark"></i>
+           </a>
+       </nav>
+       <div class="card__exercice">
+            <section class="card__enonce">
+                <h2>1. Regarder</h2>
+                    <div><strong>Comment trouver un logement en France ? Un étudiant étranger nous raconte comment il a fait.
+                        Regardez et écoutez la vidéo. Remettez le récit dans l'ordre.</strong>
+                        <button class="btn btn-secondary" data-toggle="modal" data-target="#transcriptModal">Transcription</button>
+                    </div>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/-jxu97yOAV0" title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <div class="modal fade" id="transcriptModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Transcription</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Ça y est j’ai trouvé mon logement en France.</p>
+                                    <p>Bienvenue chez moi. Comment j’ai fait ? Je vais tout vous raconter.</p>
+                                    <p>Avant d’arriver, j’ai préféré réserver un hébergement temporaire sur Internet.</p>
+                                    <p>Comme ça en arrivant j’ai pu me familiariser rapidement avec mon nouvel environnement et me concentrer sur les démarches à accomplir.</p>
+                                    <p>D’abord, j’ai préparé mon dossier, plusieurs même pour être sûr.</p>
+                                    <p>Dedans j’y ai mis une copie de mon passeport, mon relevé bancaire, une attestation de revenus.</p>
+                                    <p>Comme j’avais un garant français, j’ai indiqué ses coordonnées, sinon j’aurais pu demander VISALE, une caution locative gratuite.</p>
+                                    <p>Ensuite, j’ai découvert qu’il y avait plein d’hébergements possibles.</p>
+                                    <p>Certaines écoles ont leur propre résidence, sinon il y a les chambres des cités universitaires du CROUS, de la cité internationale universitaire de Paris ou encore des résidences étudiantes privées.</p>
+                                    <p>Pour se plonger au cœur de la culture française, on peut aussi loger chez l’habitant.</p>
+                                    <p>Contre un service rendu, la chambre peut être moins chère ou même gratuite.</p>
+                                    <p>Il y a aussi les bailleurs privés qui proposent studios et appartements à la location.</p>
+                                    <p>Et en colocation, ça permet de partager les frais. Il y a même des foyers de jeunes ou d’étudiants. Moi, j’ai choisi une chambre en résidence universitaire. J’aime l’idée d’être entouré d’autres étudiants de France comme des quatre coins du monde. Hier j’ai signé mon contrat de bail et j’ai souscrit une assurance habitation. Et ici je n’ai même pas besoin de prendre un abonnement pour l’électricité et le gaz. Je peux maintenant profiter sereinement de mon nouveau « chez moi ». Allez, on déballe les cartons. Et si tu as d’autres questions, rendez-vous sur campusfrance.org. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn" data-toggle="modal" data-target="#howToModal"><i class="btn btn-info fa-solid fa-question"></i> Comment faire l'exercice ?</button>
+                    <div class="modal fade" id="howToModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Comment faire l'exercice ?</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="../img/remettre-en-ordre-reconstitution-2_0.png" class="d-block w-100" alt="...">
+                                    <img src="../img/remettre-en-ordre-reconstitution-3_0.png" class="d-block w-100" alt="...">
+                                    <img src="../img/remettre-en-ordre-reconstitution-4_0.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section> 
+            <section class="card__reponses">
+                <ul class="card__nav__exercices">
+                    <li>Il a découvert différents types d’hébergement.</li>
+                    <li>Il a donné l’adresse d’un garant français (une personne qui doit payer le loyer si l'étudiant ne paye pas).</li>
+                    <li>Il a préparé des dossiers. Il a mis des documents dans ces dossiers. </li>
+                    <li>Il a choisi une chambre dans une résidence universitaire.</li>
+                    <li>Il a signé un contrat de bail. </li>
+                    <li>Il a rangé ses affaires dans son nouveau logement.</li>
+                    <li>Avant d’arriver en France, il a pris un hébergement temporaire par internet.</li>
+                </ul>
+            </section>
+       </div>
       </main>
       <footer>
           <div><a href="https://lepole-formation.fr/">Site web</a></div>
           <div><a href="">Mentions légales</a></div>
           <div>&copy; Le Pole Formation 2022</div>
       </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
