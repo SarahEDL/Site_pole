@@ -195,12 +195,33 @@ input {
     width: 100%;
     margin: 3rem;
 }
+.card__exercice--vocab {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin: 3rem;
+}
 
 .card__enonce {
 
 }
 .card__reponses {
 
+}
+
+.card__enonce--vocab {
+    padding: 1rem;
+    border: 1px solid #3852CE;
+    border-radius: 1rem;
+    color: #018BF1;
+
+}
+.card__enonce--vocab h3 {
+    font-size: large;
+    color: #3852CE;
+}
+.card__enonce--vocab p {
+    margin-bottom: .7rem;
 }
 
 .btn-start {
