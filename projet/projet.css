@@ -88,6 +88,7 @@ h1{
     text-align: center;
 }
 
+<<<<<<< HEAD
 h4{
 margin-left: 3rem;
 margin-top: 5rem;
@@ -99,6 +100,12 @@ font-weight: bold;
     margin: auto;
     text-align: center;
 
+=======
+.submit {
+    margin: auto;
+    text-align: center;
+    
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
     width: 50%;
 }
 input {
@@ -125,8 +132,13 @@ input {
     background-color: #eee;
 }
 .progress-bar .progress {
+<<<<<<< HEAD
     width: 25%;
     align-self: left;
+=======
+    --pgPercentage: calc(var(--value) / var(--valuemax) * 100%);
+    width: var(--pgPercentage);
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
     background-color: #3852CE;
     background: linear-gradient(224.47deg,#018BF1 0%,#00BAD8 99.09%);
 }
@@ -194,18 +206,31 @@ input {
     background-color: #3852CE;
     font-weight: bold;
     top: 0.6rem;
+<<<<<<< HEAD
 }
+=======
+}    
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
 
 .card__exercice {
     display: grid;
     grid-template-columns: 50% 50%;
+<<<<<<< HEAD
     width: calc(100% - 3rem);
+=======
+    width: 100%;
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
     margin: 3rem;
 }
 .card__exercice--vocab {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
+=======
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
     margin: 3rem;
 }
 
@@ -221,14 +246,20 @@ input {
     border: 1px solid #3852CE;
     border-radius: 1rem;
     color: #018BF1;
+<<<<<<< HEAD
     margin: 1rem;
 
+=======
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
 
 }
 .card__enonce--vocab h3 {
     font-size: large;
     color: #3852CE;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
 }
 .card__enonce--vocab p {
     margin-bottom: .7rem;
@@ -238,6 +269,7 @@ input {
     width: 15rem;
 }
 
+<<<<<<< HEAD
 .nav__ctrl {
     height: 3rem;
 
@@ -246,6 +278,8 @@ input {
 select.nav__ctrl{
   width: 10rem;
 }
+=======
+>>>>>>> 0a9a790687c04eb94720b4d9445d1215a1920904
 .transcript {
     display: none;
 }

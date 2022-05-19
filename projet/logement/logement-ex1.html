@@ -2,10 +2,12 @@
   <head>
     <title>Le Pole Formation | Documentations et exercices</title>
     <meta charset="utf-8" />
+
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../projet.css" rel="stylesheet" />
@@ -25,6 +27,7 @@
             </a>
         </nav>
 
+
         <h1>Logement</h1>
         <nav class="breadcrumbs">
               <select onchange="location=this.value" class="btn btn-secondary nav__ctrl">
@@ -36,10 +39,16 @@
             <div>
                 <h2>Nous nous informons sur le logement</h2>
                 <div class="progress-bar">
-                    <div class="progress"></div>
+                    <div class="progress"
+                        role="progressbar"
+                        aria-valuenow="1"
+                        aria-valuemin="1"
+                        aria-valuemax="4"
+                        style="--value: 1; --valuemax: 4;"></div>
                 </div>
             </div>
-            <a class="btn btn-secondary nav__ctrl" href="../logement.html" >
+            <a class="btn btn-secondary" href="../logement.html">
+
                <i class="fa-solid fa-xmark"></i>
            </a>
        </nav>
@@ -50,8 +59,10 @@
                         Regardez et écoutez la vidéo. Remettez le récit dans l'ordre.</strong>
                         <button class="btn btn-secondary" data-toggle="modal" data-target="#transcriptModal">Transcription</button>
                     </div>
+
                     <iframe width="320" height="240" src="https://www.youtube.com/embed/-jxu97yOAV0" title="YouTube video player"
                     frameborder="0"
+
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     <div class="modal fade" id="transcriptModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -99,7 +110,9 @@
                             </div>
                         </div>
                     </div>
+
             </section>
+
             <section class="card__reponses">
                 <ul class="card__nav__exercices">
                     <li>Il a découvert différents types d’hébergement.</li>
