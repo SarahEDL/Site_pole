@@ -88,10 +88,17 @@ h1{
     text-align: center;
 }
 
+h4{
+margin-left: 3rem;
+margin-top: 5rem;
+color: #3852ce;
+font-weight: bold;
+}
+
 .submit {
     margin: auto;
     text-align: center;
-    
+
     width: 50%;
 }
 input {
@@ -187,18 +194,18 @@ input {
     background-color: #3852CE;
     font-weight: bold;
     top: 0.6rem;
-}    
+}
 
 .card__exercice {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 100%;
+    width: calc(100% - 3rem);
     margin: 3rem;
 }
 .card__exercice--vocab {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
     margin: 3rem;
 }
 
@@ -214,11 +221,14 @@ input {
     border: 1px solid #3852CE;
     border-radius: 1rem;
     color: #018BF1;
+    margin: 1rem;
+
 
 }
 .card__enonce--vocab h3 {
     font-size: large;
     color: #3852CE;
+
 }
 .card__enonce--vocab p {
     margin-bottom: .7rem;
@@ -228,6 +238,14 @@ input {
     width: 15rem;
 }
 
+.nav__ctrl {
+    height: 3rem;
+
+}
+
+select.nav__ctrl{
+  width: 10rem;
+}
 .transcript {
     display: none;
 }
