@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.fa-shuttle-space {
+    transform: translate(50%, 50%) rotate(245deg);
+    filter: brightness(0) saturate(100%) invert(55%) sepia(94%) saturate(3860%) hue-rotate(163deg) brightness(97%) contrast(102%);
+}
+.fa-bacterium {
+    transform: scale(2);
+    /*animation: 4s linear 0s infinite alternate move_eye;*/
+}
+.fa-spider {
+    transform: skew(10deg);
+    animation: spin 4s linear infinite;
+}
+
+/*@keyframes move_eye {from { margin-left:-20%; } to { margin-left:100%; }};*/
+@keyframes spin {
+    from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+ }

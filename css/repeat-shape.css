@@ -1,0 +1,11 @@
+div {
+    width: 12rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 6rem;
+    font-weight: bold;
+    background: url(dot.png) repeat-y;
+    background-size: 1rem;
+  }
+  

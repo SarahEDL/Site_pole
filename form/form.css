@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+    margin: auto;
+    margin-top: 4rem;
+    width: 50%;
+}
+fieldset {
+    border: 1px solid #eee;
+}
+input[type="number"] {
+    width: 4rem;
+}
